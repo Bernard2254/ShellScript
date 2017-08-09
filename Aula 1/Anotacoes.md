@@ -1,4 +1,4 @@
-# Introdução
+  # Introdução
 
 - Terminal (Shell) é um programa que interpreta comandos;
 >- Entradas e saída em formato texto;
@@ -11,10 +11,11 @@
 
 ## Modo interativo
 
+```bash
 - echo "oi
 > mundo"
 - for((j=0; j<12; j++)) do
-> ```echo $j
+> echo $j
 > done;
 0
 1
@@ -29,7 +30,6 @@
 10
 11
 ```
-
 ## Modo não interativo
 
 - Inicia documento com #!/bin/bash
@@ -42,7 +42,7 @@
 - $PATH -> Contém as pastas e diretórios que você tem os programas para executar;
 - --help -> comando para comandos utilitátios;
 >- Esse comando é útil quando se sabe o comando;
->- `$ cat --help`;
+>- `$ cat --help;`
 >- **OBS:** `$cat -n arquivo` -> Mostra número da linha;
 - `man arquivo`-> para acessar o manual da instrução;
 >- Esse comando é útil quando se sabe o comando;
@@ -50,3 +50,4 @@
 >- '|' é um paginador, executa a opção pedida '--help' junto com outro programa;
 - `grep "#" arquivo` -> Procura linhas que tem #;
 >- `grep -v "#" arquivo` -> Procura todas as linhas uqe não tem #;
+
